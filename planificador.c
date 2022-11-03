@@ -52,29 +52,6 @@ void mostrar(FILE *fp, int (*comp)(TEntrada, TEntrada)) {
 
 float reducir_horas_manejo(FILE *fp) {
 
-	int counter = 0, lista_destinos_sz;
-	float distancia_total = 0.0;
-	TEntrada entry;
-	int contador=0;
-	TCiudad c, ciudad_actual;
-
-
-	// Obtengo la posicion actual del viajero
-	rewind(fp);
-	if (!feof(fp)) {
-		ciudad_actual = (TCiudad) malloc(sizeof(struct ciudad));
-		if (ciudad_actual != NULL){
-
-			fscanf(fp, "%f;%f\n", &(ciudad_actual->pos_x), &(ciudad_actual->pos_y));
-		}
-		else
-
-			return -1.0;
-        }
-
-	fprintf(stdout, "Distancia total: %f\n", distancia_total);
-
-	return distancia_total;
 }
 
 void salir(void) {
