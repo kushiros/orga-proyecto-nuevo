@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1539101305 source:c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\colacp.c
+	<stdio.h>
+	<stdlib.h>
+	"colacp.h"
+	"const.h"
+
+1667508591 c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\colacp.h
+
+1667506743 c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\const.h
+
+1667506743 source:c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\comparable.c
+	"colacp.h"
+
+1667507738 source:c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"colacp.h"
+	"comparable.h"
+	"planificador.h"
+	"const.h"
+
+1667506743 c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\comparable.h
+
+1667508372 c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\planificador.h
+	<stdio.h>
+	"colacp.h"
+
+1667508315 source:c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\planificador.c
+	"planificador.h"
+	"const.h"
+	"colacp.h"
+	"comparable.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
