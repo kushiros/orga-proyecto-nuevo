@@ -1,9 +1,8 @@
 # depslib dependency file v1.0
-1539101305 source:c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\colacp.c
+1667509815 source:c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\colacp.c
 	<stdio.h>
 	<stdlib.h>
 	"colacp.h"
-	"const.h"
 
 1667508591 c:\users\jcdom\onedrive\escritorio\proyectoo\orga-proyecto-nuevo\colacp.h
 

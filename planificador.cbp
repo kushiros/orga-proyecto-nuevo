@@ -19,9 +19,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="colacp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="colacp.h" />
+		<Unit filename="comparable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="comparable.h" />
+		<Unit filename="const.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="planificador.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="planificador.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

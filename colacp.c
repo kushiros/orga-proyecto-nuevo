@@ -89,7 +89,7 @@ TEntrada cp_eliminar(TColaCP cola){
 void cp_destruir(TColaCP cola, void (*fEliminar)(TEntrada) ){
     TNodo ultimo;
     while(cola->raiz!=NULL){
-      ultimo=  buscar_nodo(cola->cantidad_elementos);
+      ultimo=  buscar_nodo(cola->cantidad_elementos, cola -> raiz);
       fEliminar(ultimo->entrada);
       free(ultimo);
       cola->cantidad_elementos= (cola->cantidad_elementos-1);
